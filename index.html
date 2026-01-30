@@ -4,9 +4,85 @@
   <meta charset="UTF-8" />
   <title>MG EXEO Network, Inc.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+    }
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+    header nav a {
+      color: #000;
+      margin-left: 30px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(
+          rgba(0,0,0,0.55),
+          rgba(0,0,0,0.55)
+        ),
+        url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      padding: 0 60px;
+    }
+    .hero-content {
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-size: 52px;
+      margin: 0 0 20px;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 22px;
+      line-height: 1.5;
+    }
+    .cta {
+      margin-top: 30px;
+      display: inline-block;
+      background: #000;
+      padding: 14px 28px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <h1>MG EXEO Network, Inc.</h1>
-  <p>Telecommunications and railway infrastructure services.</p>
+
+<header>
+  <strong>MG EXEO</strong>
+  <nav>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Projects</a>
+    <a href="#">Careers</a>
+    <a href="#" class="cta">Contact Us</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Ready to Level Up?</h1>
+    <p>
+      Embrace the extraordinary with<br>
+      engineering excellence in telecommunications<br>
+      and railway infrastructure.
+    </p>
+  </div>
+</section>
+
 </body>
 </html>
